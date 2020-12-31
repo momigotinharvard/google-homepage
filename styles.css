@@ -1,3 +1,7 @@
+body {
+    font-family: arial, sans-serif;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -25,10 +29,9 @@ input:hover {
     border-color: rgba(223,225,229,0);
 }
 
-.nav {
+ .nav {
     font-size: 13px;
     overflow: hidden;
-    font-family: arial, sans-serif;
     white-space: nowrap;
 } 
 
@@ -46,9 +49,9 @@ input:hover {
     text-decoration: underline;
 } 
 
-.nav-right {
+ .nav-right {
     float: right;
-} 
+}  
 
 .grid {
     height: 14px;
@@ -63,7 +66,7 @@ input:hover {
 
 .grid:hover {
     opacity: .85;
-}
+} 
 
 button {
   background-color: #4285f4; 
@@ -77,45 +80,43 @@ button {
   border-radius: 2px;
   font-size: 13px;
   font-weight: bold;  
-}
+} 
+
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
+    position:fixed;
+    left: 0px;
+    bottom:0;
+    width:100%;
+    line-height: 15px;
+    background: #f2f2f2;
+    border-top: 1px solid #dadce0;
   }
 
-footer a {
+.footer a {
     text-decoration: none;
     color: #70757a;
     display: inline-block;
     padding: 12px 14px;
     overflow: hidden;
-    font-family: arial, sans-serif;
     font-size: 14px;
-}
+}  
 
-footer a:hover {
+.footer a:hover {
     opacity: .85;
     text-decoration: underline;
-}
+}  
 
 .leftfooter {
-    height: 2.5rem;
     margin-left: 30px;
     min-width: 30%;
     text-align: left;
 }
 
 .rightfooter {
-    height: 2.5rem;
     float: right;
     margin-right: 30px;
     min-width: 30%;
     text-align: right;
-}
+}  
 
