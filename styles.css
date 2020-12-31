@@ -1,0 +1,121 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 109px;
+    height: auto;
+    margin-top: 89px;
+}
+
+input {
+    background: #fff;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 484px;
+    height: 46px;
+    border-radius: 24px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    margin-top: 25px;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.nav {
+    font-size: 13px;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+    white-space: nowrap;
+} 
+
+.nav a {
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    opacity: .85;
+    text-decoration: underline;
+} 
+
+.nav-right {
+    float: right;
+} 
+
+.grid {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    opacity: .55;
+    float: right;
+    margin: 1 auto;
+    margin-top: -108px;
+    margin-left: -15px;
+}
+
+.grid:hover {
+    opacity: .85;
+}
+
+button {
+  background-color: #4285f4; 
+  border: 1px solid #4285f4;
+  color: white;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 28px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;  
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+footer a {
+    text-decoration: none;
+    color: #70757a;
+    display: inline-block;
+    padding: 12px 14px;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+footer a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
+.leftfooter {
+    height: 2.5rem;
+    margin-left: 30px;
+    min-width: 30%;
+    text-align: left;
+}
+
+.rightfooter {
+    height: 2.5rem;
+    float: right;
+    margin-right: 30px;
+    min-width: 30%;
+    text-align: right;
+}
+
